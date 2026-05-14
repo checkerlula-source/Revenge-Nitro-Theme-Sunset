@@ -1,269 +1,448 @@
 {
-    "name": "Nitro Sunset",
-    "description": "Discord Nitro Sunset theme — #48288c to #db7f4b",
-    "authors": [
-        {
-            "name": "Luca",
-            "id": "0"
-        }
-    ],
-    "spec": 2,
-    "semanticColors": {
-        "BACKGROUND_PRIMARY": [
-            "#00000000"
-        ],
-        "BACKGROUND_SECONDARY": [
-            "#00000000"
-        ],
-        "BACKGROUND_SECONDARY_ALT": [
-            "#00000000"
-        ],
-        "BACKGROUND_TERTIARY": [
-            "#00000000"
-        ],
-        "BACKGROUND_FLOATING": [
-            "#3B1F7099"
-        ],
-        "BACKGROUND_NESTED_FLOATING": [
-            "#3B1F7099"
-        ],
-        "BACKGROUND_MOBILE_PRIMARY": [
-            "#00000000"
-        ],
-        "BACKGROUND_MOBILE_SECONDARY": [
-            "#00000000"
-        ],
-        "BACKGROUND_ACCENT": [
-            "#db7f4b"
-        ],
-        "BACKGROUND_MODIFIER_ACCENT": [
-            "#ffffff0d"
-        ],
-        "BACKGROUND_MODIFIER_ACTIVE": [
-            "#ffffff1a"
-        ],
-        "BACKGROUND_MODIFIER_HOVER": [
-            "#ffffff0d"
-        ],
-        "BACKGROUND_MODIFIER_SELECTED": [
-            "#ffffff1a"
-        ],
-        "BACKGROUND_MENTIONED": [
-            "#db7f4b26"
-        ],
-        "BACKGROUND_MENTIONED_HOVER": [
-            "#db7f4b40"
-        ],
-        "BACKGROUND_MESSAGE_HOVER": [
-            "#ffffff08"
-        ],
-        "BG_BASE_PRIMARY": [
-            "#00000000"
-        ],
-        "BG_BASE_SECONDARY": [
-            "#00000000"
-        ],
-        "BG_BASE_TERTIARY": [
-            "#00000000"
-        ],
-        "BG_MOD_FAINT": [
-            "#ffffff0d"
-        ],
-        "BG_MOD_SUBTLE": [
-            "#ffffff0d"
-        ],
-        "BG_SURFACE_OVERLAY": [
-            "#3B1F7099"
-        ],
-        "BG_SURFACE_OVERLAY_TMP": [
-            "#3B1F7099"
-        ],
-        "BG_SURFACE_RAISED": [
-            "#ffffff0d"
-        ],
-        "BG_BACKDROP": [
-            "#000000b2"
-        ],
-        "CHAT_BACKGROUND": [
-            "#00000000"
-        ],
-        "HOME_BACKGROUND": [
-            "#00000000"
-        ],
-        "CARD_PRIMARY_BG": [
-            "#ffffff0d"
-        ],
-        "CARD_SECONDARY_BG": [
-            "#ffffff0d"
-        ],
-        "CHANNELTEXTAREA_BACKGROUND": [
-            "#ffffff15"
-        ],
-        "EMBED_BACKGROUND": [
-            "#ffffff0d"
-        ],
-        "KEYBOARD": [
-            "#3B1F70"
-        ],
-        "AUTOCOMPLETE_BG": [
-            "#3B1F70cc"
-        ],
-        "HEADER_PRIMARY": [
-            "#FFFFFF"
-        ],
-        "HEADER_SECONDARY": [
-            "#ffffffb2"
-        ],
-        "TEXT_NORMAL": [
-            "#FFFFFF"
-        ],
-        "TEXT_MUTED": [
-            "#ffffff80"
-        ],
-        "TEXT_LINK": [
-            "#F0A868"
-        ],
-        "INTERACTIVE_NORMAL": [
-            "#ffffffb2"
-        ],
-        "INTERACTIVE_HOVER": [
-            "#ffffffcc"
-        ],
-        "INTERACTIVE_ACTIVE": [
-            "#FFFFFF"
-        ],
-        "INTERACTIVE_MUTED": [
-            "#ffffff4d"
-        ],
-        "CHANNELS_DEFAULT": [
-            "#ffffffb2"
-        ],
-        "CHANNEL_TEXT_AREA_PLACEHOLDER": [
-            "#ffffff66"
-        ],
-        "STATUS_POSITIVE_TEXT": [
-            "#43b581"
-        ],
-        "STATUS_DANGER_TEXT": [
-            "#f04747"
-        ],
-        "STATUS_WARNING_TEXT": [
-            "#faa61a"
-        ],
-        "REDESIGN_CHAT_INPUT_BACKGROUND": [
-            "#ffffff15"
-        ],
-        "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
-            "#ffffff0d"
-        ],
-        "REDESIGN_ACTIVITY_CARD_BACKGROUND_PRESSED": [
-            "#ffffff1a"
-        ],
-        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
-            "#ffffff12"
-        ],
-        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
-            "#ffffff12"
-        ],
-        "REDESIGN_BUTTON_SECONDARY_BORDER": [
-            "#ffffff1a"
-        ],
-        "SCROLLBAR_THIN_THUMB": [
-            "#ffffff33"
-        ],
-        "SCROLLBAR_THIN_TRACK": [
-            "transparent"
-        ],
-        "SCROLLBAR_AUTO_THUMB": [
-            "#ffffff33"
-        ],
-        "SCROLLBAR_AUTO_TRACK": [
-            "transparent"
-        ],
-        "SPOILER_HIDDEN_BACKGROUND": [
-            "#ffffff1a"
-        ],
-        "ANDROID_NAVIGATION_BAR_BACKGROUND": [
-            "#3B1F70"
-        ],
-        "ANDROID_RIPPLE": [
-            "#ffffff20"
-        ],
-        "BORDER_FAINT": [
-            "#ffffff0d"
-        ],
-        "BORDER_STRONG": [
-            "#ffffff1a"
-        ],
-        "BORDER_SUBTLE": [
-            "#ffffff12"
-        ],
-        "POLLS_NORMAL_FILL_HOVER": [
-            "#ffffff0d"
-        ],
-        "POLLS_NORMAL_IMAGE_BACKGROUND": [
-            "#ffffff0d"
-        ],
-        "POLLS_VICTOR_FILL": [
-            "#ffffff33"
-        ],
-        "BACKGROUND_MODIFIER_ACCEPT": [
-            "#43b58133"
-        ],
-        "BACKGROUND_MODIFIER_ACCEPT_HOVER": [
-            "#43b5814d"
-        ],
-        "AUTOMOD_QUEUED_FOR_REVIEW_BACKGROUND": [
-            "#faa61a33"
-        ],
-        "AUTOMOD_QUEUED_FOR_REVIEW_BACKGROUND_HOVER": [
-            "#faa61a4d"
-        ],
-        "NAV_BAR_BACKGROUND": [
-            "#00000000"
-        ],
-        "STATUS_BAR_BACKGROUND": [
-            "#00000000"
-        ],
-        "TAB_BAR_BACKGROUND": [
-            "#00000000"
-        ]
-    },
-    "rawColors": {
-        "PRIMARY_DARK_100": "#FFFFFF",
-        "PRIMARY_DARK_200": "#ffffffb2",
-        "PRIMARY_DARK_300": "#ffffff80",
-        "PRIMARY_DARK_330": "#ffffff80",
-        "PRIMARY_DARK_360": "#ffffff66",
-        "PRIMARY_DARK_400": "#ffffff4d",
-        "PRIMARY_DARK_430": "#ffffff4d",
-        "PRIMARY_DARK_460": "#ffffff33",
-        "PRIMARY_DARK_500": "#00000000",
-        "PRIMARY_DARK_530": "#00000000",
-        "PRIMARY_DARK_560": "#00000000",
-        "PRIMARY_DARK_600": "#00000000",
-        "PRIMARY_DARK_630": "#00000000",
-        "PRIMARY_DARK_660": "#00000000",
-        "PRIMARY_DARK_700": "#00000000",
-        "PRIMARY_DARK_730": "#00000000",
-        "PRIMARY_DARK_760": "#00000000",
-        "PRIMARY_DARK_800": "#00000000",
-        "PRIMARY_DARK_830": "#00000000",
-        "PRIMARY_DARK_860": "#00000000",
-        "PRIMARY_DARK_900": "#00000000",
-        "BRAND_NEW_260": "#db7f4b",
-        "BRAND_NEW_360": "#db7f4b",
-        "BRAND_NEW_460": "#db7f4b",
-        "BRAND_NEW_500": "#db7f4b",
-        "BRAND_NEW_530": "#c06f3e",
-        "BRAND_NEW_560": "#a86036",
-        "BRAND_NEW_600": "#96542e",
-        "BRAND_NEW_660": "#7d4625",
-        "WHITE_500": "#FFFFFF"
-    },
-    "background": {
-      "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20preserveAspectRatio%3D%27none%27%3E%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%270%27%20y2%3D%271%27%3E%3Cstop%20offset%3D%270%25%27%20stop-color%3D%27%2348288c%27%2F%3E%3Cstop%20offset%3D%27100%25%27%20stop-color%3D%27%23db7f4b%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%271%27%20height%3D%271%27%20fill%3D%27url%28%23g%29%27%2F%3E%3C%2Fsvg%3E",
-        "alpha": 1,
-        "blur": 0
-    }
+    "name":  "Sonnenuntergang",
+    "description":  "Discord Nitro Sunset theme - fixed for Revenge light/dark modes",
+    "authors":  [
+                    {
+                        "name":  "Luca",
+                        "id":  "0"
+                    }
+                ],
+    "spec":  2,
+    "semanticColors":  {
+                           "BACKGROUND_PRIMARY":  [
+                                                      "#4A2A73",
+                                                      "#4A2A73",
+                                                      "#4A2A73"
+                                                  ],
+                           "BACKGROUND_SECONDARY":  [
+                                                        "#39215F",
+                                                        "#39215F",
+                                                        "#39215F"
+                                                    ],
+                           "BACKGROUND_SECONDARY_ALT":  [
+                                                            "#311B55",
+                                                            "#311B55",
+                                                            "#311B55"
+                                                        ],
+                           "BACKGROUND_TERTIARY":  [
+                                                       "#271747",
+                                                       "#271747",
+                                                       "#271747"
+                                                   ],
+                           "BACKGROUND_FLOATING":  [
+                                                       "#281545",
+                                                       "#281545",
+                                                       "#281545"
+                                                   ],
+                           "BACKGROUND_NESTED_FLOATING":  [
+                                                              "#311B55",
+                                                              "#311B55",
+                                                              "#311B55"
+                                                          ],
+                           "BACKGROUND_MOBILE_PRIMARY":  [
+                                                             "#4A2A73",
+                                                             "#4A2A73",
+                                                             "#4A2A73"
+                                                         ],
+                           "BACKGROUND_MOBILE_SECONDARY":  [
+                                                               "#39215F",
+                                                               "#39215F",
+                                                               "#39215F"
+                                                           ],
+                           "BACKGROUND_ACCENT":  [
+                                                     "#DB7F4B",
+                                                     "#DB7F4B",
+                                                     "#DB7F4B"
+                                                 ],
+                           "BACKGROUND_MODIFIER_ACCENT":  [
+                                                              "#FFFFFF20",
+                                                              "#FFFFFF20",
+                                                              "#FFFFFF20"
+                                                          ],
+                           "BACKGROUND_MODIFIER_ACTIVE":  [
+                                                              "#FFFFFF2E",
+                                                              "#FFFFFF2E",
+                                                              "#FFFFFF2E"
+                                                          ],
+                           "BACKGROUND_MODIFIER_HOVER":  [
+                                                             "#FFFFFF18",
+                                                             "#FFFFFF18",
+                                                             "#FFFFFF18"
+                                                         ],
+                           "BACKGROUND_MODIFIER_SELECTED":  [
+                                                                "#DB7F4B33",
+                                                                "#DB7F4B33",
+                                                                "#DB7F4B33"
+                                                            ],
+                           "BACKGROUND_MENTIONED":  [
+                                                        "#DB7F4B2E",
+                                                        "#DB7F4B2E",
+                                                        "#DB7F4B2E"
+                                                    ],
+                           "BACKGROUND_MENTIONED_HOVER":  [
+                                                              "#DB7F4B45",
+                                                              "#DB7F4B45",
+                                                              "#DB7F4B45"
+                                                          ],
+                           "BACKGROUND_MESSAGE_HOVER":  [
+                                                            "#FFFFFF12",
+                                                            "#FFFFFF12",
+                                                            "#FFFFFF12"
+                                                        ],
+                           "BG_BASE_PRIMARY":  [
+                                                   "#4A2A73",
+                                                   "#4A2A73",
+                                                   "#4A2A73"
+                                               ],
+                           "BG_BASE_SECONDARY":  [
+                                                     "#39215F",
+                                                     "#39215F",
+                                                     "#39215F"
+                                                 ],
+                           "BG_BASE_TERTIARY":  [
+                                                    "#271747",
+                                                    "#271747",
+                                                    "#271747"
+                                                ],
+                           "BG_MOD_FAINT":  [
+                                                "#FFFFFF12",
+                                                "#FFFFFF12",
+                                                "#FFFFFF12"
+                                            ],
+                           "BG_MOD_SUBTLE":  [
+                                                 "#FFFFFF1C",
+                                                 "#FFFFFF1C",
+                                                 "#FFFFFF1C"
+                                             ],
+                           "BG_SURFACE_OVERLAY":  [
+                                                      "#2E1952",
+                                                      "#2E1952",
+                                                      "#2E1952"
+                                                  ],
+                           "BG_SURFACE_OVERLAY_TMP":  [
+                                                          "#2E1952",
+                                                          "#2E1952",
+                                                          "#2E1952"
+                                                      ],
+                           "BG_SURFACE_RAISED":  [
+                                                     "#5A337F",
+                                                     "#5A337F",
+                                                     "#5A337F"
+                                                 ],
+                           "BG_BACKDROP":  [
+                                               "#160D2BCC",
+                                               "#160D2BCC",
+                                               "#160D2BCC"
+                                           ],
+                           "CHAT_BACKGROUND":  [
+                                                   "#4A2A73",
+                                                   "#4A2A73",
+                                                   "#4A2A73"
+                                               ],
+                           "HOME_BACKGROUND":  [
+                                                   "#4A2A73",
+                                                   "#4A2A73",
+                                                   "#4A2A73"
+                                               ],
+                           "CARD_PRIMARY_BG":  [
+                                                   "#FFFFFF12",
+                                                   "#FFFFFF12",
+                                                   "#FFFFFF12"
+                                               ],
+                           "CARD_SECONDARY_BG":  [
+                                                     "#FFFFFF0D",
+                                                     "#FFFFFF0D",
+                                                     "#FFFFFF0D"
+                                                 ],
+                           "CHANNELTEXTAREA_BACKGROUND":  [
+                                                              "#FFFFFF1C",
+                                                              "#FFFFFF1C",
+                                                              "#FFFFFF1C"
+                                                          ],
+                           "EMBED_BACKGROUND":  [
+                                                    "#FFFFFF12",
+                                                    "#FFFFFF12",
+                                                    "#FFFFFF12"
+                                                ],
+                           "KEYBOARD":  [
+                                            "#281545",
+                                            "#281545",
+                                            "#281545"
+                                        ],
+                           "AUTOCOMPLETE_BG":  [
+                                                   "#2E1952",
+                                                   "#2E1952",
+                                                   "#2E1952"
+                                               ],
+                           "HEADER_PRIMARY":  [
+                                                  "#FFFFFF",
+                                                  "#FFFFFF",
+                                                  "#FFFFFF"
+                                              ],
+                           "HEADER_SECONDARY":  [
+                                                    "#FFE1CF",
+                                                    "#FFE1CF",
+                                                    "#FFE1CF"
+                                                ],
+                           "TEXT_NORMAL":  [
+                                               "#FFFFFF",
+                                               "#FFFFFF",
+                                               "#FFFFFF"
+                                           ],
+                           "TEXT_MUTED":  [
+                                              "#FFD4BCB3",
+                                              "#FFD4BCB3",
+                                              "#FFD4BCB3"
+                                          ],
+                           "TEXT_LINK":  [
+                                             "#FFD09A",
+                                             "#FFD09A",
+                                             "#FFD09A"
+                                         ],
+                           "INTERACTIVE_NORMAL":  [
+                                                      "#FFE1CFCC",
+                                                      "#FFE1CFCC",
+                                                      "#FFE1CFCC"
+                                                  ],
+                           "INTERACTIVE_HOVER":  [
+                                                     "#FFFFFF",
+                                                     "#FFFFFF",
+                                                     "#FFFFFF"
+                                                 ],
+                           "INTERACTIVE_ACTIVE":  [
+                                                      "#FFFFFF",
+                                                      "#FFFFFF",
+                                                      "#FFFFFF"
+                                                  ],
+                           "INTERACTIVE_MUTED":  [
+                                                     "#FFD4BC73",
+                                                     "#FFD4BC73",
+                                                     "#FFD4BC73"
+                                                 ],
+                           "CHANNELS_DEFAULT":  [
+                                                    "#FFE1CFCC",
+                                                    "#FFE1CFCC",
+                                                    "#FFE1CFCC"
+                                                ],
+                           "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
+                                                                 "#FFD4BC99",
+                                                                 "#FFD4BC99",
+                                                                 "#FFD4BC99"
+                                                             ],
+                           "STATUS_POSITIVE_TEXT":  [
+                                                        "#7EE0A1",
+                                                        "#7EE0A1",
+                                                        "#7EE0A1"
+                                                    ],
+                           "STATUS_DANGER_TEXT":  [
+                                                      "#FF8B8B",
+                                                      "#FF8B8B",
+                                                      "#FF8B8B"
+                                                  ],
+                           "STATUS_WARNING_TEXT":  [
+                                                       "#FFD166",
+                                                       "#FFD166",
+                                                       "#FFD166"
+                                                   ],
+                           "REDESIGN_CHAT_INPUT_BACKGROUND":  [
+                                                                  "#FFFFFF1C",
+                                                                  "#FFFFFF1C",
+                                                                  "#FFFFFF1C"
+                                                              ],
+                           "REDESIGN_ACTIVITY_CARD_BACKGROUND":  [
+                                                                     "#FFFFFF12",
+                                                                     "#FFFFFF12",
+                                                                     "#FFFFFF12"
+                                                                 ],
+                           "REDESIGN_ACTIVITY_CARD_BACKGROUND_PRESSED":  [
+                                                                             "#FFFFFF22",
+                                                                             "#FFFFFF22",
+                                                                             "#FFFFFF22"
+                                                                         ],
+                           "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND":  [
+                                                                            "#FFFFFF18",
+                                                                            "#FFFFFF18",
+                                                                            "#FFFFFF18"
+                                                                        ],
+                           "REDESIGN_BUTTON_SECONDARY_BACKGROUND":  [
+                                                                        "#FFFFFF18",
+                                                                        "#FFFFFF18",
+                                                                        "#FFFFFF18"
+                                                                    ],
+                           "REDESIGN_BUTTON_SECONDARY_BORDER":  [
+                                                                    "#FFFFFF24",
+                                                                    "#FFFFFF24",
+                                                                    "#FFFFFF24"
+                                                                ],
+                           "SCROLLBAR_THIN_THUMB":  [
+                                                        "#FFD4BC66",
+                                                        "#FFD4BC66",
+                                                        "#FFD4BC66"
+                                                    ],
+                           "SCROLLBAR_THIN_TRACK":  [
+                                                        "transparent",
+                                                        "transparent",
+                                                        "transparent"
+                                                    ],
+                           "SCROLLBAR_AUTO_THUMB":  [
+                                                        "#FFD4BC66",
+                                                        "#FFD4BC66",
+                                                        "#FFD4BC66"
+                                                    ],
+                           "SCROLLBAR_AUTO_TRACK":  [
+                                                        "transparent",
+                                                        "transparent",
+                                                        "transparent"
+                                                    ],
+                           "SPOILER_HIDDEN_BACKGROUND":  [
+                                                             "#FFFFFF24",
+                                                             "#FFFFFF24",
+                                                             "#FFFFFF24"
+                                                         ],
+                           "ANDROID_NAVIGATION_BAR_BACKGROUND":  [
+                                                                     "#271747",
+                                                                     "#271747",
+                                                                     "#271747"
+                                                                 ],
+                           "ANDROID_RIPPLE":  [
+                                                  "#FFFFFF24",
+                                                  "#FFFFFF24",
+                                                  "#FFFFFF24"
+                                              ],
+                           "BORDER_FAINT":  [
+                                                "#FFFFFF14",
+                                                "#FFFFFF14",
+                                                "#FFFFFF14"
+                                            ],
+                           "BORDER_STRONG":  [
+                                                 "#FFFFFF2E",
+                                                 "#FFFFFF2E",
+                                                 "#FFFFFF2E"
+                                             ],
+                           "BORDER_SUBTLE":  [
+                                                 "#FFFFFF20",
+                                                 "#FFFFFF20",
+                                                 "#FFFFFF20"
+                                             ],
+                           "POLLS_NORMAL_FILL_HOVER":  [
+                                                           "#FFFFFF14",
+                                                           "#FFFFFF14",
+                                                           "#FFFFFF14"
+                                                       ],
+                           "POLLS_NORMAL_IMAGE_BACKGROUND":  [
+                                                                 "#FFFFFF14",
+                                                                 "#FFFFFF14",
+                                                                 "#FFFFFF14"
+                                                             ],
+                           "POLLS_VICTOR_FILL":  [
+                                                     "#DB7F4B55",
+                                                     "#DB7F4B55",
+                                                     "#DB7F4B55"
+                                                 ],
+                           "BACKGROUND_MODIFIER_ACCEPT":  [
+                                                              "#43B58133",
+                                                              "#43B58133",
+                                                              "#43B58133"
+                                                          ],
+                           "BACKGROUND_MODIFIER_ACCEPT_HOVER":  [
+                                                                    "#43B5814D",
+                                                                    "#43B5814D",
+                                                                    "#43B5814D"
+                                                                ],
+                           "AUTOMOD_QUEUED_FOR_REVIEW_BACKGROUND":  [
+                                                                        "#FFD16633",
+                                                                        "#FFD16633",
+                                                                        "#FFD16633"
+                                                                    ],
+                           "AUTOMOD_QUEUED_FOR_REVIEW_BACKGROUND_HOVER":  [
+                                                                              "#FFD1664D",
+                                                                              "#FFD1664D",
+                                                                              "#FFD1664D"
+                                                                          ],
+                           "NAV_BAR_BACKGROUND":  [
+                                                      "#271747",
+                                                      "#271747",
+                                                      "#271747"
+                                                  ],
+                           "STATUS_BAR_BACKGROUND":  [
+                                                         "#271747",
+                                                         "#271747",
+                                                         "#271747"
+                                                     ],
+                           "TAB_BAR_BACKGROUND":  [
+                                                      "#39215F",
+                                                      "#39215F",
+                                                      "#39215F"
+                                                  ]
+                       },
+    "rawColors":  {
+                      "PRIMARY_DARK_100":  "#FFFFFF",
+                      "PRIMARY_DARK_200":  "#FFE1CF",
+                      "PRIMARY_DARK_300":  "#FFD4BC",
+                      "PRIMARY_DARK_330":  "#F7BFA5",
+                      "PRIMARY_DARK_360":  "#E6A184",
+                      "PRIMARY_DARK_400":  "#B9828A",
+                      "PRIMARY_DARK_430":  "#8F6690",
+                      "PRIMARY_DARK_460":  "#6F4A86",
+                      "PRIMARY_DARK_500":  "#5A337F",
+                      "PRIMARY_DARK_530":  "#4A2A73",
+                      "PRIMARY_DARK_560":  "#39215F",
+                      "PRIMARY_DARK_600":  "#311B55",
+                      "PRIMARY_DARK_630":  "#2B184D",
+                      "PRIMARY_DARK_660":  "#271747",
+                      "PRIMARY_DARK_700":  "#21123D",
+                      "PRIMARY_DARK_730":  "#1B0E34",
+                      "PRIMARY_DARK_760":  "#160D2B",
+                      "PRIMARY_DARK_800":  "#100920",
+                      "PRIMARY_DARK_830":  "#0B0618",
+                      "PRIMARY_DARK_860":  "#080412",
+                      "PRIMARY_DARK_900":  "#05030C",
+                      "BRAND_NEW_260":  "#FFD09A",
+                      "BRAND_NEW_360":  "#F0A868",
+                      "BRAND_NEW_460":  "#E8905A",
+                      "BRAND_NEW_500":  "#DB7F4B",
+                      "BRAND_NEW_530":  "#C86F43",
+                      "BRAND_NEW_560":  "#B65F3B",
+                      "BRAND_NEW_600":  "#9F4E34",
+                      "BRAND_NEW_660":  "#843F2D",
+                      "WHITE_500":  "#FFFFFF",
+                      "PRIMARY_100":  "#FFFFFF",
+                      "PRIMARY_200":  "#FFE1CF",
+                      "PRIMARY_300":  "#FFD4BC",
+                      "PRIMARY_330":  "#F7BFA5",
+                      "PRIMARY_360":  "#E6A184",
+                      "PRIMARY_400":  "#B9828A",
+                      "PRIMARY_430":  "#8F6690",
+                      "PRIMARY_460":  "#6F4A86",
+                      "PRIMARY_500":  "#5A337F",
+                      "PRIMARY_530":  "#4A2A73",
+                      "PRIMARY_560":  "#39215F",
+                      "PRIMARY_600":  "#311B55",
+                      "PRIMARY_630":  "#2B184D",
+                      "PRIMARY_660":  "#271747",
+                      "PRIMARY_700":  "#21123D",
+                      "PRIMARY_730":  "#1B0E34",
+                      "PRIMARY_760":  "#160D2B",
+                      "PRIMARY_800":  "#100920",
+                      "PRIMARY_830":  "#0B0618",
+                      "PRIMARY_860":  "#080412",
+                      "PRIMARY_900":  "#05030C",
+                      "BRAND_260":  "#FFD09A",
+                      "BRAND_360":  "#F0A868",
+                      "BRAND_460":  "#E8905A",
+                      "BRAND_500":  "#DB7F4B",
+                      "BRAND_530":  "#C86F43",
+                      "BRAND_560":  "#B65F3B",
+                      "BRAND_600":  "#9F4E34",
+                      "BRAND_660":  "#843F2D",
+                      "RED_400":  "#FF8B8B",
+                      "YELLOW_300":  "#FFD166",
+                      "GREEN_360":  "#7EE0A1"
+                  },
+    "background":  {
+                       "url":  "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20preserveAspectRatio%3D%27none%27%3E%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%270%27%20y2%3D%271%27%3E%3Cstop%20offset%3D%270%25%27%20stop-color%3D%27%2348288c%27%2F%3E%3Cstop%20offset%3D%27100%25%27%20stop-color%3D%27%23db7f4b%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%271%27%20height%3D%271%27%20fill%3D%27url%28%23g%29%27%2F%3E%3C%2Fsvg%3E",
+                       "alpha":  0.15,
+                       "blur":  0,
+                       "color":  "#48288C"
+                   }
 }
